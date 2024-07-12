@@ -1,0 +1,210 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none !important;
+  color: white !important;
+}
+
+
+/* Start Sidebar */
+
+
+aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  height: 100%;
+}
+
+aside .sidebar {
+  background-color: #000000;
+  position: fixed;
+  padding: 10px;
+  display: none;
+  height: 100%;
+}
+
+aside i {
+  padding: 10px;
+  cursor: pointer;
+}
+
+aside #show {
+  cursor: pointer;
+  z-index: 100;
+  color: white;
+  position:  relative;
+  top: 300px;
+}
+
+aside #hide {
+  position: absolute;
+  left: 130px;
+
+}
+
+aside .color {
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+aside .color:nth-child(1){
+  background-color: #e2240b;
+}
+
+aside .color:nth-child(5){
+  background-color: #0be2a1;
+}
+
+aside .color:nth-child(2){
+  background-color: #0376a3;
+}
+
+aside .color:nth-child(3){
+  background-color: #90c418;
+}
+
+aside .color:nth-child(4){
+  background-color: #a37e03;
+}
+
+aside a:hover {
+  color: #54191b !important;
+}
+aside #hide:hover {
+  color: #54191b !important;
+} 
+
+aside .color:hover {
+  transform: scale(1.2);
+}
+
+/* End Sidebar */
+
+
+
+
+/* Start header */
+#home {
+  background-image: url(../images/header.jpg);
+  width: 100%;
+  height: 660px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  color: white;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d62e3399;
+}
+
+.overlay h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.overlay p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}  
+
+/* End header */
+
+
+
+
+/* Start accordion */
+
+.accordion {
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 15px;
+}
+
+.accordion h3 {
+  background-color: #d62e3399;
+}
+.accordion p {
+  background-color: #eee;
+}
+
+.item div {
+  display: none;
+  margin: 20px 10px;
+}
+
+.item:first-child div {
+  display: block;
+}
+/* End accordion */
+
+
+
+
+/* Start CountDown */
+#countdown {
+  background-image: url(../images/invitation-2508607__340.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+#countdown .countdown-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d62e3399;
+}
+
+.time {
+  width: 10px;
+  height: 80px;
+  border: #ffffff 1px solid;
+}
+/* End CountDown */
+
+
+
+
+/* Start Contact */
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border: #444 1px solid;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #a30308;
+}
+
+.icon:hover i {
+  color:#ffffff;
+}
+/* End Contact */
+
